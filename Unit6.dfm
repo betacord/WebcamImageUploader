@@ -1,0 +1,31 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Pomoc'
+  ClientHeight = 203
+  ClientWidth = 333
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 333
+    Height = 203
+    Align = alClient
+    AutoSize = False
+    Caption = 'Label1'
+    WordWrap = True
+    ExplicitWidth = 31
+    ExplicitHeight = 13
+  end
+end
